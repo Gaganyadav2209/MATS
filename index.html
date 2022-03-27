@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manan a Techno Surge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Unna&display=swap" rel="stylesheet">
+
+
+    <style>
+        body{
+            margin:0;
+        }
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color: #111;
+        }
+.column {
+  float: left;
+  padding: 1%;
+}
+
+
+.column.side {
+  width: 23%;
+  min-height: 552px;
+  background-color: burlywood;
+}
+
+
+.column.middle {
+  width: 48%;
+  min-height: 552px;
+  background-color: rgb(236, 175, 96);
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header {
+  font-size: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+  header {
+    font-size: 18px;
+  }
+}
+.image {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+  
+        .photo {
+            width: 20%;
+            padding: 0 10px;
+            height: 240px;
+            text-align: center;
+            margin: 0 5%;
+        }
+  
+        .photo img {
+            width: 80%;
+            height: 80%;
+        }
+        .images{
+          display: flex;
+          flex-wrap: wrap;
+          padding: 30px;
+        }
+        .photos {
+            width: 15%;
+            padding: 0 10px;
+            height: 200px;
+            text-align: center;
+            margin: 0 3%;
+        }
+        .photos img {
+            width: 60%;
+            height: 60%;
+        }
+
+        
+  .events {
+    font-size: 25px;
+    font-family: Copperplate, Papyrus, fantasy;
+    color:#73930A;
+}   
+   .moments{
+     font-size: 20px;
+     font-family: "Courier New", Courier, monospace;
+   }     
+
+ 
+   .aboutdiv{
+     min-height: 720px; 
+     background-color:  #ffcc99;
+     padding-left: 30px;
+     padding-right: 30px;
+   /* margin-bottom: 0px; */
+     
+
+   }
+   input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=text]:focus {
+  background-color: #dcdee0;
+}
+input[type=email]:focus {
+  background-color: #dcdee0;
+}
+input[type=textarea]:focus {
+  background-color: #dcdee0;
+}
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #737270;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #cebff5;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f7b46d;
+  padding: 20px;
+}
+
+
+</style>
+</head>
+<body>
+    <header style="text-align: center; text-decoration: wavy;color: orange;background-color: black;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;padding:0px;height:85px;">
+      <img src="logo2.jpg" style="width: 90px; height:85px ; float: left;">  
+      Manan - A Techno Surge 
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#members">Our Members</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#login">Login</a></li>
+            <li><a href="Signup">Sign Up</a></li>
+         </ul>
+         
+          
+    </nav>
+    <div class="row" id="home">
+        <div class="column side">
+          <h2 style="text-align: center;"><u style="border-bottom: 3px solid black;">Proud Moments</u></h2>
+        <div style="padding-top: 10px;padding-left: 10px;">
+          <marquee behavior="scroll" direction="down" scrollamount="2.6" height="400px">
+          <p class="moments">1<sup>st</sup> Position in Hackathon 2K21</p>
+          <p class="moments">Finishers in Start Code at ABC UNIVERSITY</p>
+          <p class="moments">Got a chance to visit MIT</p>
+          <p class="moments">2<sup>nd</sup> postion at IIT HYDERABAD</p>
+          <p class="moments">Funded 2 Lacs by XYZ TECHNO</p>
+          <p class="moments">Many of our students secured DSA master's degree from ABC INSTITUTE</p>
+          <p class="moments">20 MANAN student's placed with 25+ Lpa in top MNC's </p>
+          </marquee>
+        </div>
+        </div>
+        
+        <div class="column middle">
+          <h2 style="text-align: center;font-size: 40px;">INTRODUCTION</h2>
+          <p style="background-color: rgb(236, 175, 96);font-family: 'Unna', serif;color: #111;font-size:22px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+          <p style="font-size: 22px;font-family: 'Unna', serif;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam accusamus dolor facere laboriosam labore excepturi, similique quibusdam at veritatis iusto.</p>
+        </div>
+        
+        <div class="column side">
+          <h2 style="text-align: center;"><u style="border-bottom: 3px solid black;">Our Upcoming Events</u></h2>
+        <div style="padding-top: 10px;padding-left: 30px;text-decoration: solid;">
+          <marquee behavior="scroll" direction="up" scrollamount="2.6" height="400px">
+           <a href="regform.html" target="_blank" style="text-decoration: none;"> <p class="events" title="click to register">MANTHAN</p> </a>
+         <a href="hackathon.html" target="_blank" style="text-decoration: none;" > <p class="events" title="click to register">HACKATHON 2K22</p> </a>
+         <a href="rclub.html" target="_blank" style="text-decoration: none;"> <p class="events" title="click to register">RANKERS CLUB</p> </a>
+         <a href="hackapril.html" target="_blank" style="text-decoration: none;"> <p class="events" title="click to register">HACK APRIL</p> </a>
+         <a href="conqueror.html" target="_blank" style="text-decoration: none;"> <p class="events" title="click to register">M CONQUEROR</p> </a>
+        <a href="newbies.html" target="_blank" style="text-decoration: none;"> <p class="events" title="click to register">NEWBIES 22</p> </a>
+          <a href="codeman.html" target="_blank" style="text-decoration: none;"> <p class="events" title="click to register"> CODEMAN</p> </a>
+        <a href="masterclass.html" target="_blank" style="text-decoration: none;"> <p class="events" title="click to register"> MASTER CLASS</p> </a>
+         <a href="dsaclass.html" target="_blank" style="text-decoration: none;"> <p class="events" title="click to register"> LEARNING DSA</p>  </a>
+         <a href="advanceddsa.html" target="_blank" style="text-decoration: none;"> <p class="events" title="click to register"> ADVANCED 22</p>  </a>
+          </marquee>
+        </div>
+      
+
+        
+          
+        </div>
+      </div>
+
+
+      <h1 style="text-align: center;background-color: rgb(255, 204, 0);margin:0px;font-size: 60px;">MEMBERS</h1>
+      <div class="image" style="background-color: #ff9933;" id="members"> 
+        <div class="photo">
+            <img src="p1.png"  >
+            <p>Mr. ABX</p>
+            <p>(Faculty Co-ordinator)</p>
+        </div>
+        <div class="photo">
+            <img src="p1.png" >
+            <p>Mr. EFD</p>
+            <p>(Faculty Co-ordinator)</p>
+        </div> 
+        <div class="photo">
+            <img src="p1.png" >
+            <p>Mr. EUR</p>
+            <p>(Faculty Co-ordinator)</p>
+        </div>
+    </div>
+    <div class="image" style="background-color: #E6B869;">
+      <div class="photo">
+          <img src="p1.png"  >
+          <p>Mr. UFH</p>
+          <p>(JOINT SEC)</p>
+      </div>
+      <div class="photo">
+          <img src="p1.png" >
+          <p>Mr. IWNW</p>
+          <p>(JOINT SEC)</p>
+      </div> 
+      <div class="photo">
+          <img src="p1.png" >
+          <p>Mr. IWEH</p>
+          <p>(JOINT SEC)</p>
+      </div>
+  </div>
+  <h2 style="text-align: center;">OUR SPONSORS</h2>
+
+  <div class="image" style="background-color: #E99910;">
+    <div class="photo">
+        <img src="google.png"  >
+    </div>
+    <div class="photo">
+        <img src="facebook.png" >
+   </div> 
+    <div class="photo">
+        <img src="apple.png" >
+
+    </div>
+</div>
+<div class="image" style="background-color: #E7965B;">
+  <div class="photo">
+      <img src="amazon.png"  >
+  </div>
+  <div class="photo">
+      <img src="adobe.jpg" >
+  </div> 
+  <div class="photo">
+      <img src="GS.png" >
+  </div>
+</div>
+
+<h1 style="text-align: center;font-size: 60px;background-color: #EC8C07;margin: 0px;">ABOUT MANAN</h1>
+<div class="aboutdiv" id="about">
+<p class="about" style="font-size: 32px;font-family: 'Dancing Script', cursive;margin-top: 0px; padding-top: 40px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus suscipit sequi voluptatibus excepturi corrupti eaque, facilis sit natus minima cupiditate, repudiandae sint, at earum vero. Fugit eos animi qui dolorum ratione numquam eligendi veniam, voluptate dolor explicabo? Magni debitis libero molestias. Mollitia, sed error dignissimos magni voluptas doloremque architecto est autem velit quia ipsum ducimus similique nam dolor reiciendis enim eum illum corporis distinctio ullam commodi? Minus fugiat natus sed voluptas obcaecati, consectetur eveniet doloribus excepturi harum molestiae quaerat magnam commodi deserunt ex nobis? Doloribus hic dignissimos neque optio quidem repudiandae minus excepturi dolores, tenetur fugit vitae repellendus iure ex!</p>
+<br>
+<p style="font-size: 32px;font-family: 'Dancing Script', cursive;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti perferendis rerum quam nulla, repellendus quaerat, recusandae dicta dolore laboriosam quas quia quisquam! Quod fugiat corrupti rerum maiores veritatis facere eius officiis repudiandae ipsa placeat, alias ex eligendi aliquam perferendis quam inventore impedit, id ut ducimus. Ea, iure ad dolor vero ex cum recusandae ipsa possimus perspiciatis incidun.</p>
+</div>
+
+
+<h1 style="text-align: center; background-color: #0f0e0c;font-size: 50px;margin: -35px;color:#e0e0de;margin-bottom: 20px;">CONTACT US</h1>
+
+<div id="contact" style=" float: left; width:100%;background-color: #f0a224;margin: 0px;">
+  <p style="font-size: 30px; text-align: center;font-family: 'Patrick Hand', cursive;">
+    For any queries Feel free to contact us :-)
+    <br>
+    <br>
+    E-mail :- <a href=" mailto:manantechnosurge@gmail.com">manantechnosurge@gmail.com</a>
+    <br>
+    <br>
+    Contact No :- 
+        <br> 
+        1. 94XXXXXXXXX
+        <br>
+        2. 89XXXXXXXXX
+  </p>
+  </div>
+  <div class="images" style="background-color: #E99910;">
+    <div class="photos">
+      <a href="https://www.instagram.com/manantechnosurge/?hl=en" target="_blank" title="click to visit our instagram page"> <img src="instagram.png" alt="instahandle" border="0" width="90" height="90"></a>
+    </div>
+    <div class="photos">
+      <a href="https://www.facebook.com/Manan.Ymcaust/" target="_blank" title="click to visit our facebook page"> <img src="facebook.png" alt="fb" border="0" width="90" height="90"></a>
+   </div> 
+    <div class="photos">
+      <a href="https://twitter.com/manantechsurge" target="_blank" title="click to visit our twitter handle"> <img src="twitter.png" alt="twitter" border="0" width="90" height="90"></a>
+  </div>
+    <div class="photos">
+      <a href="https://in.linkedin.com/company/manan-ymca/?challengeId=AQFV8oitm_51tAAAAX-2ZEZ5mjDjLOzR76hCNlo286mfKZg52t5UH4OCrUC-Hl5djgHhKxYhjUNqo_vxbtytlqjEN3krqr9vag&submissionId=07edec86-d3fc-de16-04c4-792930de344e" target="_blank" title="click to visit our linkedin page"> <img src="linkedin.png" alt="linkedin" border="0" width="90" height="90"></a>
+    </div>
+
+    </div>
+  <h3 style="text-align: center;font-family: 'Amatic SC', cursive;font-size: 45px;"><b>Want to leave a comment for us</b></h3>
+  <div class="container">
+    <form action="">
+      <label for="fname" style="font-family: 'Boogaloo', cursive;font-size: 20px;"><b>First Name</b></label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname" style="font-family: 'Boogaloo', cursive;font-size: 20px;"><b>Last Name</b></label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <label for="email" style="font-family: 'Boogaloo', cursive;font-size: 20px;"><b>E-mail</b></label>
+      <input type="email" id="email" placeholder="Your E-mail here....">
+      <br>
+
+  
+      <label for="subject" style="font-family: 'Boogaloo', cursive;font-size: 20px;"><b>Subject</b></label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>
+</div>
+<footer style="text-align: center;background-color: burlywood;color:black;margin: -17px;padding-bottom: 10px;padding-top: 7px;">
+  <p>Made by <b> GAGAN YADAV</b></p>
+  <p>  <cite>© Copyright 2022 Gagan Yadav. All rights reserved. </cite></p>
+</footer>
+
+</body>
+</html>

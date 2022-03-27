@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REG FORM</title>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <style>
+        body{
+            margin: 0;
+        }
+        input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 5px inset #2F928A;
+  outline: none;
+  border-radius: 30px;
+  margin-left: 15px;
+  margin-right: 45px;
+
+
+}
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 5px inset #555;
+  outline: none;
+  border-radius: 25px;
+  margin-left: 15px;
+  margin-right: 45px;
+
+
+}
+input[type=number]:focus {
+  background-color: #ffddcc;
+}
+        input[type=text]:focus {
+  background-color: #ffddcc;
+}
+input[type=email]:focus {
+  background-color: #e6ffb3;
+}
+input[type=email] {
+
+    width: 100%;
+    padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 5px inset #555;
+  outline: none;
+  border-radius: 25px;
+  margin-left: 15px;
+  margin-right: 45px;
+}
+input[type=submit] {
+  width: 20%;
+  background-color: #9494b8;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset] {
+  width: 20%;
+  background-color: #666699;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #6699ff;
+}
+
+input[type=reset]:hover {
+  background-color: #6699ff;
+}
+    </style>
+</head>
+<body style="background-color:rgb(236, 175, 96);" >
+    <header style="text-align: center;color: orange;background-color: black;font-size: 63px;font-family: 'Sofia';">REGISTER FOR NEWBIES 2K22
+        <img src="logo2.jpg" style="width: 99px; height:100px ; float: left;">  
+    </header>
+    <br>
+    <br>
+
+    <form action="">
+        <label for="fname" style="padding-left: 30px;font-size: 20px;font-family: Copperplate, Papyrus, fantasy;"><b>First Name</b> </label>
+         <input type="text" name="personname" placeholder="Your Name...." required>
+
+         <label for="lname" style="padding-left: 30px;font-size: 20px;font-family: Copperplate, Papyrus, fantasy;"><b>Last Name</b> </label>
+         <input type="text" name="lastname" placeholder="Last Name...." required>
+        <fieldset style="border: 10px outset black;">
+            <legend style="font-size: 20px;font-family: Copperplate, Papyrus, fantasy;"><b>GENDER</b></legend>
+        <p ><input type="radio" name="gender" id="male" required>MALE</p>
+        <p> <input type="radio" name="gender" id="female" required>FEMALE</p>
+        </fieldset>
+        <br>
+        <label for="fname" style="padding-left: 30px;font-size: 20px;font-family: Copperplate, Papyrus, fantasy;"><b>Roll No </b></label>
+        <input type="number" name="rollno" placeholder="Roll No...." required>
+        <label for="course" style="padding-left: 30px;font-size: 20px;font-family: Copperplate, Papyrus, fantasy;"><b>Course</b> </label>
+        <input type="text" name="Course" placeholder="Course...." required>
+        <label for="branch" style="padding-left: 30px;font-size: 20px;font-family: Copperplate, Papyrus, fantasy;"><b>Branch</b> </label>
+        <input type="text" name="branch" placeholder="Branch...." required>
+        <label for="year" style="padding-left: 30px;font-size: 20px;font-family: Copperplate, Papyrus, fantasy;"><b>Year</b> </label>
+        <br>
+        <select name="year" id="" required>
+            <br>
+          <option value="" >---select year of your current study---</option>
+          <option value="1">1<sup>st</sup></option>
+          <option value="2">2<sup>nd</sup></option>
+          <option value="3">3<sup>rd</sup></option>
+          <option value="4">4<sup>th</sup></option>
+
+        </select>
+        <br>
+        <br>
+        <label for="sem" style="padding-left: 30px;font-size: 20px;font-family: Copperplate, Papyrus, fantasy;"><b>Semester</b> </label>
+        <br>
+        <select name="year" id="" required>
+          <option value="">---select semester of your current study---</option>
+          <option value="1">1<sup>st</sup></option>
+          <option value="2">2<sup>nd</sup></option>
+          <option value="3">3<sup>rd</sup></option>
+          <option value="4">4<sup>th</sup></option>
+          <option value="4">5<sup>th</sup></option>
+          <option value="4">6<sup>th</sup></option>
+          <option value="4">7<sup>th</sup></option>
+          <option value="4">8<sup>th</sup></option>
+
+        </select>
+        
+        <p style="font-size:20px;font-family: Copperplate, Papyrus, fantasy;"><b>How do you came to know about us</b> </p>
+        <select name="know" required>
+            <option value="">--select a option--</option>
+           <option value="Through Friends">Through Friends</option>
+           <option value="ymca">Student of JCBUST</option>
+           <option value="social media">SOCIAL MEDIA</option>
+           <option value="alumni">From ALumni's</option>
+           <option value="seniors">seniors</option>
+        </select>
+
+        <p style="font-size: 20px;font-family: Copperplate, Papyrus, fantasy;"><b>YOUR INTRESTED FIELDS</b></p>
+        <fieldset style="border: 10px solid black;">
+        <legend>YOUR INTRESTS</legend>
+        <p><input type="checkbox" name="Web Dev" >WEB DEVELOPMENT</p>
+        <p><input type="checkbox" name="block" >BLOCK CHAIN TECHNOLOGY</p>
+        <p><input type="checkbox" name="Android Dev" >ANDROID DEVELOPMENT</p>
+        <p><input type="checkbox" name="dl" >DEEP LEARNING</p>
+        <p><input type="checkbox" name="ML" >MACHINE LEARNING</p>
+        <p><input type="checkbox" name="AI" >ARTIFICIAL INTELLIGENCE</p>
+        <p><input type="checkbox" name="full-stack" >FULL STACK DEVELOPER</p>
+        <p><input type="checkbox" name="gp" >GRAPHIC AND VISUAL COMPUTING</p>
+        <p><input type="checkbox" name="Cm" >CLOUD COMPUTING</p>
+        <p><input type="checkbox" name="ao" >ARCHITECTURE ORGANIZATION</p>
+        <p><input type="checkbox" name="cs" >CYBER SECURITY</p>
+        <p><input type="checkbox" name="np" >OTHERS</p>
+
+        </fieldset>
+        <br>
+        <br>
+        <label for="email" style="padding-left: 30px;font-size: 20px;font-family: Copperplate, Papyrus, fantasy;"><b>E-mail :</b></label>
+        <input type="email" placeholder="E-mail...." required>
+        <br>
+        <br>
+        <label for="phone no" style="padding-left: 30px;font-size: 20px;font-family: Copperplate, Papyrus, fantasy;"><b> Mobile No : </b></label>
+        <input type="number" placeholder="Phone No...." required>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="RESET">
+
+
+    </form>
+    
+</body>
+</html>
